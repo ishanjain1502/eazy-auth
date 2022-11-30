@@ -10,7 +10,6 @@
   "author": "ishanjain1502",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^8.0.0",
     "typescript": "^4.9.3"
   }
 }
