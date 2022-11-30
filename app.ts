@@ -11,8 +11,10 @@ app.use(
     })
 );
 
-http.createServer(app);
+const server = http.createServer(app);
 dotenv.config();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("tiny"));
+
+export default server;
